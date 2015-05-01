@@ -11,10 +11,14 @@ body {
 }
 
 a.btn {
-    margin-right: 10px;
+    margin: 10px 10px 10px 0;
 }
 
 h1.divider {
     border-bottom: 1px solid #EFF0F1;
     margin-bottom: 24px;
+}
+
+section {
+    margin-bottom: 30px;
 }
