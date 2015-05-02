@@ -44,5 +44,47 @@
             <input type="url" placeholder="Some placeholder text" required/>
             <span class="field-hint">Please enter a valid URL.</span>
         </section>
+        <section>
+            <label for="id_input-field">Textarea</label>
+            <textarea cols="40" rows="5"></textarea>
+        </section>
+        <section>
+            <label>Radio Buttons</label>
+            <div class="radio">
+                <input type="radio" id="id_radio1" value="1" name="radios" />
+                <label for="id_radio1">Normal</label>
+            </div>
+            <div class="radio">
+                <input type="radio" id="id_radio2" value="2" name="radios" checked="checked" />
+                <label for="id_radio2">Checked</label>
+            </div>
+            <div class="radio">
+                <input type="radio" id="id_radio3" value="1" name="radios2" />
+                <label for="id_radio3" class="disabled">Normal Disabled</label>
+            </div>
+            <div class="radio">
+                <input type="radio" id="id_radio4" value="2" name="radios2" checked="checked" />
+                <label for="id_radio4" class="disabled">Checked Disabled</label>
+            </div>
+        </section>
+        <section>
+            <label>Checkboxes</label>
+            <div class="checkbox">
+                <input type="checkbox" id="id_check1" value="1" name="checks" />
+                <label for="id_check1">Normal</label>
+            </div>
+            <div class="checkbox">
+                <input type="checkbox" id="id_check2" value="2" name="checks" checked="checked" />
+                <label for="id_check2">Checked</label>
+            </div>
+            <div class="checkbox">
+                <input type="checkbox" id="id_check3" value="1" name="checks2" />
+                <label for="id_check3" class="disabled">Normal Disabled</label>
+            </div>
+            <div class="checkbox">
+                <input type="checkbox" id="id_check4" value="2" name="checks2" checked="checked" />
+                <label for="id_check4" class="disabled">Checked Disabled</label>
+            </div>
+        </section>
     </body>
 </html>
