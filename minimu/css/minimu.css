@@ -276,6 +276,44 @@ span.field-hint {
     opacity: 1;
 }
 
+/*---------------------*/
+/*    Miscellaneous    */
+/*---------------------*/
+.msg {
+    background: #DEE7EF;
+    border-color: #9FAEBB;
+    border-radius: 2px;
+    border-style: solid;
+    border-width: 1px;
+    color: #505C69;
+    padding: 20px;
+    text-align: center;
+}
+
+.msg-success {
+    background: #98AA39;
+    border-color: #69771D;
+    color: white;
+}
+
+.msg-failure {
+    background: #CF5069;
+    border-color: #9C3347;
+    color: white;
+}
+
+.msg-caution {
+    background: #F0894F;
+    border-color: #BE5114;
+    color: white;
+}
+
+.msg-info {
+    background: #3C96DD;
+    border-color: #247CC1;
+    color: white;
+}
+
 /*-----------------*/
 /*    Utilities    */
 /*-----------------*/
