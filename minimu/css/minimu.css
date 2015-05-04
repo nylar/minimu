@@ -279,7 +279,8 @@ span.field-hint {
 /*---------------------*/
 /*    Miscellaneous    */
 /*---------------------*/
-.msg {
+.msg,
+.label {
     background: #DEE7EF;
     border-color: #9FAEBB;
     border-radius: 2px;
@@ -290,27 +291,48 @@ span.field-hint {
     text-align: center;
 }
 
-.msg-success {
+.msg {
+    padding: 20px;
+}
+
+.label {
+    font-size: 11px;
+    font-weight: 600;
+    padding: 7px 10px;
+}
+
+.msg-success,
+.label-success {
     background: #98AA39;
     border-color: #69771D;
     color: white;
 }
 
-.msg-failure {
+.msg-failure,
+.label-failure {
     background: #CF5069;
     border-color: #9C3347;
     color: white;
 }
 
-.msg-caution {
+.msg-caution,
+.label-caution {
     background: #F0894F;
     border-color: #BE5114;
     color: white;
 }
 
-.msg-info {
+.msg-info,
+.label-info {
     background: #3C96DD;
     border-color: #247CC1;
+    color: white;
+}
+
+.msg-alt,
+.label-alt {
+    background: #988DE2;
+    border-color: #7A6DC9;
     color: white;
 }
 
