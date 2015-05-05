@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         
         <title>Minimu</title>
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.4.2/chosen.min.css"></link>
 
         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
         <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:400,600">
@@ -86,6 +87,15 @@
                 <label for="id_check4" class="disabled">Checked Disabled</label>
             </div>
         </section>
+        <section>
+            <label>Select</label>
+            <select class="chosen" name="country">
+                <option>United Kingdom</option>
+                <option selected="selected">United States</option>
+                <option>Uraguay</option>
+                <option>Uzbekistan</option>
+            </select>
+        </section>
         <h1 class="divider">Miscellaneous</h1>
         <section>
             <label>Messages</label>
@@ -131,5 +141,8 @@
                 <li><a href="#">Next</a></li>
             </ul>
         </section>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.4.2/chosen.jquery.min.js"></script>
+        <script src="js/demo.js"></script>
     </body>
 </html>
