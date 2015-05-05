@@ -369,6 +369,116 @@ input[type=checkbox].switch {
     left: 36px;
 }
 
+.editor {
+    width: 500px;
+}
+
+.editor ul {
+    background-image: linear-gradient(-180deg, #FFFFFF 0%, #EAEBED 100%);
+    box-shadow: 0px 1px 1px 0px rgba(208,208,208,0.50);
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 2px 2px 0px 0px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    padding: 6px 15px;
+    width: 100%;
+}
+
+.editor li {
+    display: inline-block;
+    margin: 3px 5px 0 0;
+}
+
+.editor li.icon-divider {
+    margin: 0 20px 0 0;
+    background: transparent;
+}
+
+.editor textarea {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-top: none;
+    margin-top: 0px;
+    width: 100%;
+}
+
+.icon-bold,
+.icon-italic,
+.icon-underline,
+.icon-list,
+.icon-align-left,
+.icon-align-center,
+.icon-align-right {
+    background-repeat: no-repeat;
+    background-image: url('../images/icon_sprite.png');
+    height: 13px;
+    width: 13px;
+    display: block;
+}
+
+.icon-bold {
+    background-position: 0px 0px;
+}
+
+.icon-italic {
+    background-position: -13px 0px;
+}
+
+.icon-underline {
+    background-position: -26px 0px;
+}
+
+.icon-list {
+    background-position: -39px 0px;
+}
+
+.icon-align-left {
+    background-position: -52px 0px;
+}
+
+.icon-align-center {
+    background-position: -65px 0px;
+}
+
+.icon-align-right {
+    background-position: -78px 0px;
+}
+
+.icon-bold:hover,
+.icon-bold.active {
+    background-position: 0px -13px;
+}
+
+.icon-italic:hover,
+.icon-italic.active {
+    background-position: -13px -13px;
+}
+
+.icon-underline:hover,
+.icon-underline.active {
+    background-position: -26px -13px;
+}
+
+.icon-list:hover,
+.icon-list.active {
+    background-position: -39px -13px;
+}
+
+.icon-align-left:hover,
+.icon-align-center.active {
+    background-position: -52px -13px;
+}
+
+.icon-align-center:hover,
+.icon-align-center.active {
+    background-position: -65px -13px;
+}
+
+.icon-align-right:hover,
+.icon-align-right.active {
+    background-position: -78px -13px;
+}
+
 /*---------------------*/
 /*    Miscellaneous    */
 /*---------------------*/
