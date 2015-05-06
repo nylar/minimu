@@ -576,6 +576,44 @@ input[type=checkbox].switch {
     background-image: linear-gradient(-180deg, #CCD7E1 0%, #B4C4D1 100%);
 }
 
+/*--------------*/
+/*    Tables    */
+/*--------------*/
+table {
+    width: 100%;
+}
+
+thead {
+    border-radius: 50px;
+}
+
+thead tr {
+    background-image: linear-gradient(-180deg, #FFFFFF 0%, #EAEBED 100%);
+}
+
+th,
+td {
+    border: 1px solid #A1A6AC;
+    padding: 8px 15px;
+    text-align: left;
+}
+
+th {
+    font-weight: 600;
+}
+
+tbody tr:nth-child(odd) {
+    background: #F7F7F7;
+}
+
+tbody tr:hover {
+    background: #F3F3F3;
+}
+
+tbody td.bold {
+    font-weight: 600;
+}
+
 /*-----------------*/
 /*    Utilities    */
 /*-----------------*/
