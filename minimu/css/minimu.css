@@ -21,6 +21,7 @@ h1 {
 /*    Buttons    */
 /*---------------*/
 .btn {
+    border: none;
     border-radius: 2px;
     box-shadow: inset 0px 0px 0px 1px rgba(0,0,0,0.3), 0 1px 1px rgba(162,162,162,0.3);
     color: white;
