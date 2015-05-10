@@ -31,7 +31,12 @@ h1 {
     text-decoration: none;
 }
 
+.btn:hover {
+    border: none;
+}
+
 .btn:active {
+    border: none;
     box-shadow: inset 0px 0px 0px 1px rgba(0,0,0,0.3);
 }
 
